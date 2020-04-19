@@ -1,0 +1,16 @@
+{
+  "short_name": "Corona World Map",
+  "name": "Corona World Map and Stats",
+  "icons": [
+
+    {
+      "src": "corona.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
