@@ -35,7 +35,7 @@ class Map extends React.Component {
     });
 
     map.on("load", async () => {
-      const res = await axios.get("https://corona.lmao.ninja/v2/countries");
+      const res = await axios.get("https://disease.sh/v2/countries");
       // const geojson = res.data;
 
       const { data = [] } = res;
